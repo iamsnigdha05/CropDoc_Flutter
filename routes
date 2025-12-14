@@ -1,0 +1,29 @@
+import 'screens/splash_screen.dart';
+import 'screens/home_screen.dart';
+import 'screens/result_screen.dart';
+import 'screens/scan_again_screen.dart';
+import 'screens/disease_screen.dart';
+import 'screens/treatment_screen.dart';
+import 'screens/about_screen.dart';
+
+
+class Routes {
+  static const splash = '/';
+  static const home = '/home';
+  static const result = '/result';
+  static const scanAgain = '/scan-again';
+  static const disease = '/disease';
+  static const treatment = '/treatment';
+  static const about = '/about';
+}
+
+
+final appRoutes = {
+  Routes.splash: (_) => const SplashScreen(),
+  Routes.home: (_) => const HomeScreen(),
+  Routes.result: (_) => const ResultScreen(),
+  Routes.scanAgain: (_) => const ScanAgainScreen(),
+  Routes.disease: (_) => const DiseaseScreen(),
+  Routes.treatment: (_) => const TreatmentScreen(),
+  Routes.about: (_) => const AboutScreen(),
+};
