@@ -42,7 +42,7 @@ class ResultScreen extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(18),
                   child: Image.asset(
-                    'assets/images/leaf_result.png',
+                    'lib/images/leaf_result.png',
                     fit: BoxFit.cover,
                   ),
                 ),
